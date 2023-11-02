@@ -1,7 +1,10 @@
+const THIS_YEAR = new Date().getFullYear();
+
 const Footer = () => (
-    <div className="w-full relative bg-black p-4">
-        <div className="flex flex-col justify-center items-center gap-4 max-w-7xl text-white mx-auto">
-            <p>Created by rizek & houba s. r. o.</p>
+    <div className="w-full relative bg-black p-6 shadow md:p-8 lg:p-10">
+        <div className="flex justify-between items-center max-w-7xl text-white mx-auto flex-col gap-2 md:flex-row">
+            <p>Created by moontech@gmail.com</p>
+            <p>© {THIS_YEAR} PRO-REVIZ. All rights reserved.</p>
         </div>
     </div>
 );

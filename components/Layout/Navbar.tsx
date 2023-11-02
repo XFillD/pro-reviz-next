@@ -28,7 +28,7 @@ const Navbar = () => {
                 )}
             >
                 <div className="flex justify-between items-center h-14 md:h-18 max-w-7xl mx-auto px-6 py-8">
-                    <Image src={"/logo-white.png"} alt="Reviz Logo" className="h-6 w-fit" width={500} height={100} />
+                    <Image src={"/logo-white.png"} alt="Reviz Logo" className="h-4 md:h-6 w-fit" width={500} height={100} />
                     <ul className="hidden lg:flex gap-10">
                         {HEADER_LINKS.map(({ name, href }) => (
                             <li key={name}>

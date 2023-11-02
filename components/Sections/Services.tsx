@@ -3,8 +3,7 @@ import SectionWrapper from "../Layout/SectionWrapper";
 
 const Services: FC = () => {
     return (
-        <SectionWrapper id="services">
-            <h3 className="text-4xl font-bold text-mainColor">Sluzby</h3>
+        <SectionWrapper id="services" title="Sluzby">
             <a>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid corrupti architecto tempore autem
                 suscipit facere ut vero nulla numquam, eaque vel repudiandae a debitis ipsam, dolore hic voluptates
