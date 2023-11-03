@@ -10,9 +10,9 @@ interface SectionWrapperProps {
 
 const SectionWrapper: FC<SectionWrapperProps> = ({ children,title, id, className }) => {
     return (
-        <section id={id} className={cn("w-full relative bg-white space-y-4 px-4 py-8 md:px-10 md:py-16", className)}>
-            <div className="w-full max-w-7xl mx-auto"><h3 className="text-4xl md:text-5xl font-bold text-secondColor">{title}</h3></div>
-            <div className="w-full max-w-7xl mx-auto flex flex-col">{children}</div>
+        <section id={id} className={cn("w-full relative bg-white overflow-hidden p-2 space-y-2", className)}>
+            <div className="bg-black w-full max-w-7xl mx-auto p-2"><h3 className="text-4xl md:text-5xl font-bold text-mainColor">{title}</h3></div>
+            <div className="w-full max-w-7xl mx-auto flex flex-colp-2 pb-16 md:pb-12">{children}</div>
         </section>
     );
 };

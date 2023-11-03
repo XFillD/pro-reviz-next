@@ -1,23 +1,23 @@
 import { FC } from "react";
 import SectionWrapper from "../Layout/SectionWrapper";
+import Image from "next/image";
 
 const About: FC = () => {
     return (
-        <SectionWrapper id="about" title="O nás">
-            <div className="container mx-auto">
-                <div className="flex flex-wrap items-center justify-between -mx-4">
-                    <div className="w-full px-4 lg:w-6/12">
+        <SectionWrapper id="about" title="Proč my">
+                <div className="flex flex-col-reverse items-center justify-between gap-5 md:flex-row md:gap-10 lg:gap-14">
+                    <div className="w-full md:w-1/2">
                         <div className="flex items-center -mx-3 sm:-mx-4">
                             <div className="w-full px-3 sm:px-4 xl:w-1/2">
                                 <div className="py-3 sm:py-4">
-                                    <img
+                                    <Image width={500} height={500}
                                         src="https://images.unsplash.com/photo-1620653713380-7a34b773fef8?auto=format&fit=crop&q=80&w=3045&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                         alt=""
                                         className="w-full rounded-2xl"
                                     />
                                 </div>
                                 <div className="py-3 sm:py-4">
-                                    <img
+                                    <Image width={500} height={500}
                                         src="https://images.unsplash.com/photo-1631755544909-338697660f5b?auto=format&fit=crop&q=80&w=2967&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                         alt=""
                                         className="w-full rounded-2xl"
@@ -26,7 +26,7 @@ const About: FC = () => {
                             </div>
                             <div className="w-full px-3 sm:px-4 xl:w-1/2">
                                 <div className="relative z-10 my-4">
-                                    <img
+                                    <Image width={500} height={500}
                                         src="https://i.ibb.co/9y7nYCD/image-3.jpg"
                                         alt=""
                                         className="w-full rounded-2xl"
@@ -606,9 +606,7 @@ const About: FC = () => {
                         </div>
                     </div>
 
-                    <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-                        <div className="mt-10 lg:mt-0">
-                            <span className="block mb-4 text-lg font-semibold text-primary">Proč my</span>
+                    <div className="w-full md:w-1/2">
                             <h2 className="mb-5 text-3xl font-bold text-dark dark:text-black sm:text-[40px]/[48px]">
                                 Zajistíme spokojenost svých zákazníků poskytováním kvalitních služeb.
                             </h2>
@@ -622,16 +620,8 @@ const About: FC = () => {
                                 inventore. Accusantium, quidem, animi atque dignissimos nesciunt error exercitationem
                                 earum voluptatem esse et totam deserunt molestiae, perspiciatis doloribus quibusdam.
                             </p>
-                            <a
-                                href="javascript:void(0)"
-                                className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
-                            >
-                                Get Started
-                            </a>
-                        </div>
                     </div>
                 </div>
-            </div>
         </SectionWrapper>
     );
 };
