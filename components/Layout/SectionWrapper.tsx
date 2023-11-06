@@ -18,7 +18,7 @@ const SectionWrapper: FC<SectionWrapperProps> = ({
     <section
       id={id}
       className={cn(
-        "w-full relative z-30 bg-white overflow-hidden p-2 space-y-2",
+        "w-full relative z-30 bg-white overflow-hidden p-2 space-y-4 lg:space-y-8",
         className
       )}
     >

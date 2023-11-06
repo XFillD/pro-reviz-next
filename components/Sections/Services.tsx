@@ -5,7 +5,7 @@ import ServiceCard from "../Layout/ServiceCard";
 const Services: FC = () => {
   return (
     <SectionWrapper id="services" title="Služby">
-      <div className="container mx-auto">
+      <div className="w-full mx-auto">
         <div className="flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-8 max-w-[510px] text-center lg:mb-16">
@@ -20,7 +20,7 @@ const Services: FC = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-col gap-4 md:flex-row">
           <ServiceCard
             title="Voda"
             details="Revize vody."
@@ -31,6 +31,7 @@ const Services: FC = () => {
                 viewBox="0 0 36 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="w-10 h-10"
               >
                 <path
                   d="M21.0375 1.2374C11.8125 -0.393851 2.92503 5.7374 1.29378 14.9624C0.450029 19.4061 1.46253 23.9624 4.05003 27.6749C6.63753 31.4436 10.5188 33.9186 14.9625 34.7624C15.975 34.9311 16.9875 35.0436 18 35.0436C26.0438 35.0436 33.2438 29.2499 34.7625 21.0374C36.3938 11.8124 30.2625 2.9249 21.0375 1.2374ZM32.2313 20.5874C32.175 21.0374 32.0625 21.4874 31.95 21.8811L19.2375 17.0999V3.5999C19.6875 3.65615 20.1375 3.7124 20.5313 3.76865C28.4063 5.1749 33.6375 12.7124 32.2313 20.5874ZM16.7063 3.5999V16.7624H3.60003C3.65628 16.3124 3.71253 15.8624 3.76878 15.4124C4.95003 8.83115 10.4063 4.10615 16.7063 3.5999ZM15.4125 32.2311C11.5875 31.5561 8.32503 29.4186 6.13128 26.2124C4.66878 24.1311 3.82503 21.7124 3.60003 19.2374H17.775L31.05 24.2436C28.2938 29.9811 21.9375 33.4686 15.4125 32.2311Z"
@@ -49,6 +50,7 @@ const Services: FC = () => {
                 viewBox="0 0 36 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="w-10 h-10"
               >
                 <path
                   fill-rule="evenodd"
@@ -69,6 +71,7 @@ const Services: FC = () => {
                 viewBox="0 0 36 36"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="w-10 h-10"
               >
                 <path
                   d="M12.2063 1.9126H5.0625C3.15 1.9126 1.575 3.4876 1.575 5.4001V12.5438C1.575 14.4563 3.15 16.0313 5.0625 16.0313H12.2063C14.1188 16.0313 15.6938 14.4563 15.6938 12.5438V5.45635C15.75 3.4876 14.175 1.9126 12.2063 1.9126ZM13.2188 12.6001C13.2188 13.1626 12.7688 13.6126 12.2063 13.6126H5.0625C4.5 13.6126 4.05 13.1626 4.05 12.6001V5.45635C4.05 4.89385 4.5 4.44385 5.0625 4.44385H12.2063C12.7688 4.44385 13.2188 4.89385 13.2188 5.45635V12.6001Z"
