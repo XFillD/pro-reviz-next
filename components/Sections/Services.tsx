@@ -6,10 +6,10 @@ const Services: FC = () => {
   return (
     <SectionWrapper id="services" title="Služby">
       <div className="container mx-auto">
-        <div className="-mx-4 flex flex-wrap">
+        <div className="flex flex-wrap">
           <div className="w-full px-4">
-            <div className="mx-auto mb-12 max-w-[510px] text-center lg:mb-20">
-              <h2 className="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-black sm:text-4xl md:text-[40px]">
+            <div className="mx-auto mb-8 max-w-[510px] text-center lg:mb-16">
+              <h2 className="text-3xl font-bold leading-[1.2] text-dark dark:text-black sm:text-4xl md:text-[40px]">
                 Revize všeho druhu
               </h2>
               <p className="text-base text-body-color dark:text-dark-6">
@@ -20,7 +20,7 @@ const Services: FC = () => {
           </div>
         </div>
 
-        <div className="-mx-4 flex flex-wrap">
+        <div className="flex flex-wrap gap-4">
           <ServiceCard
             title="Voda"
             details="Revize vody."

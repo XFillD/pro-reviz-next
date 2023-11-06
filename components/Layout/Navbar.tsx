@@ -24,11 +24,17 @@ const Navbar = () => {
             <nav
                 className={cn(
                     "fixed top-0 left-0 right-0 z-40 transition-colors duration-1000 ease-in-out",
-                    isTransparent ? "bg-transparent" : "bg-black opacity-90"
+                    isTransparent ? "bg-transparent" : "bg-black opacity-95"
                 )}
             >
                 <div className="flex justify-between items-center h-14 md:h-18 max-w-7xl mx-auto px-6 py-8">
-                    <Image src={"/logo-white.png"} alt="Reviz Logo" className="h-4 md:h-6 w-fit" width={500} height={100} />
+                    <Image
+                        src={"/logo-white.png"}
+                        alt="Reviz Logo"
+                        className="h-4 md:h-6 w-auto"
+                        width={500}
+                        height={200}
+                    />
                     <ul className="hidden lg:flex gap-10">
                         {HEADER_LINKS.map(({ name, href }) => (
                             <li key={name}>
