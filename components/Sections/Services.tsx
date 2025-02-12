@@ -6,20 +6,6 @@ const Services: FC = () => {
   return (
     <SectionWrapper id="services" title="Služby">
       <div className="w-full mx-auto">
-        <div className="flex flex-wrap">
-          <div className="w-full px-4">
-            <div className="mx-auto mb-8 max-w-[510px] text-center lg:mb-16">
-              <h2 className="text-3xl font-bold leading-[1.2] text-dark dark:text-black sm:text-4xl md:text-[40px]">
-                Revize všeho druhu
-              </h2>
-              <p className="text-base text-body-color dark:text-dark-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, dolore?
-              </p>
-            </div>
-          </div>
-        </div>
-
         <div className="flex flex-col gap-4 md:flex-row">
           <ServiceCard
             title="Voda"

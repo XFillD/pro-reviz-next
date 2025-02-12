@@ -11,7 +11,7 @@ const MapPin: FC<MapPinProps> = ({ className, onClick }) => (
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className={cn("w-8 h-8 text-mainColor", className)}
+        className={cn("w-8 h-8 text-black", className)}
         onClick={onClick}
     >
         <path
