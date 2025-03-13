@@ -28,13 +28,22 @@ const Navbar = () => {
                 )}
             >
                 <div className="flex justify-between items-center h-14 md:h-18 max-w-7xl mx-auto px-6 py-8">
-                    <Image
-                        src={"/logo-white.png"}
-                        alt="Reviz Logo"
-                        className="h-4 md:h-6 w-auto"
-                        width={500}
-                        height={200}
-                    />
+                    <div className="flex items-center gap-3">
+                        <Image
+                            src={"/house.png"}
+                            alt="Reviz House"
+                            className="h-6 md:h-8 lg:h-10 w-auto" // Made the house icon larger
+                            width={1000}
+                            height={800}
+                        />
+                        <Image
+                            src={"/logo-white.png"}
+                            alt="Reviz Logo"
+                            className="h-4 md:h-6 w-auto"
+                            width={500}
+                            height={200}
+                        />
+                    </div>
                     <ul className="hidden lg:flex gap-10">
                         {HEADER_LINKS.map(({ name, href }) => (
                             <li key={name}>

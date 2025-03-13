@@ -10,7 +10,7 @@ const Portfolio = () => {
           <Image
             width={800}
             height={600}
-            src="/images/1.jpg"
+            src="/images/8.jpg"
             alt="img"
             className="mb-4 md:mb-6 lg:mb-8"
           />
@@ -51,14 +51,14 @@ const Portfolio = () => {
           <Image
             width={800}
             height={1000}
-            src="/images/3.jpg"
+            src="/images/9.jpg"
             alt="img"
             className="mb-4 md:mb-6 lg:mb-8 "
           />
           <Image
             width={800}
             height={600}
-            src="/images/7.jpg"
+            src="/images/10.jpg"
             alt="img"
             className=""
           />

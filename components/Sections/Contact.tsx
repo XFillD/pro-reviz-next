@@ -29,10 +29,6 @@ const Contact: FC = () => {
                         <Envelope />
                         <p className="font-semibold">proreviz@gmail.com</p>
                     </li>
-                    <li className="flex items-center gap-2">
-                        <Phone />
-                        <p className="font-semibold">+420 720 568 141</p>
-                    </li>
                 </ul>
             </div>
         </SectionWrapper>
